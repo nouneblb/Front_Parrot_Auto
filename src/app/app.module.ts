@@ -16,6 +16,7 @@ import { ServicesComponent } from './pages/services/services.component';
 import { OccasionsComponent } from './pages/occasions/occasions.component';
 import { CarsComponent } from './pages/cars/cars.component';
 import { CarsContentComponent } from './pages/cars-content/cars-content.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 
 
@@ -29,6 +30,7 @@ import { CarsContentComponent } from './pages/cars-content/cars-content.componen
     OccasionsComponent,
     CarsComponent,
     CarsContentComponent,
+    NotFoundComponent,
   ],
 
   imports: [

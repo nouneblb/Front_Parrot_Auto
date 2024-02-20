@@ -29,6 +29,6 @@ import { FooterComponent } from './Général/footer/footer.component';
     HttpClientModule,
   ],
   providers: [],
-  bootstrap: []
+  bootstrap: [AppModule],
 })
 export class AppModule { }

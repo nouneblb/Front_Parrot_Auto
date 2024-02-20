@@ -8,29 +8,24 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './Général/home/home.component';
-import { HeaderComponent } from './Général/header/header.component';
-import { FooterComponent } from './Général/footer/footer.component';
-import { NavbarComponent } from './layouts/navbar/navbar.component';
-import { ServicesComponent } from './pages/services/services.component';
+
+import { HomeComponent } from './pages/home/home.component';
 import { OccasionsComponent } from './pages/occasions/occasions.component';
 import { CarsComponent } from './pages/cars/cars.component';
 import { CarsContentComponent } from './pages/cars-content/cars-content.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { ServicesPageComponent } from './pages/services-page/services-page.component';
 
 
 
 @NgModule({
   declarations: [
-    HeaderComponent,
-    FooterComponent,
-    HomeComponent,
-    NavbarComponent,
-    ServicesComponent,
-    OccasionsComponent,
-    CarsComponent,
-    CarsContentComponent,
-    NotFoundComponent,
+   HomeComponent,
+   ServicesPageComponent,
+   OccasionsComponent,
+   CarsComponent,
+   CarsContentComponent,
+   NotFoundComponent,
   ],
 
   imports: [

@@ -3,12 +3,12 @@ import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })
 
-export class HeaderComponent {
+export class NavbarComponent {
   isMenuOpen = false;
   menuClass = '';
 

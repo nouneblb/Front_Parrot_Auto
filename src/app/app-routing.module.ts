@@ -1,14 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-
-import { HomeComponent } from './Général/home/home.component';
-
 import { AppComponent } from './app.component';
 
+import { HomeComponent } from './pages/home/home.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { OccasionsComponent } from './pages/occasions/occasions.component';
+import { CarsComponent } from './pages/cars/cars.component';
+import { CarsContentComponent } from './pages/cars-content/cars-content.component';
+
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
+  { path: 'home', component: HomeComponent },
   { path: '', redirectTo:'home', pathMatch: 'full' }, /* path vide ou ** = lien vide redirigé vers la page que je souhaite */
+  { path: 'services', component: ServicesComponent },
+  { path: 'occasions', component: OccasionsComponent },
+  { path: 'cars', component: CarsComponent },
+  { path: 'cars-content', component: CarsContentComponent },
 ]
 
 @NgModule({

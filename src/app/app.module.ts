@@ -11,6 +11,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './Général/home/home.component';
 import { HeaderComponent } from './Général/header/header.component';
 import { FooterComponent } from './Général/footer/footer.component';
+import { NavbarComponent } from './layouts/navbar/navbar.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { OccasionsComponent } from './pages/occasions/occasions.component';
+import { CarsComponent } from './pages/cars/cars.component';
+import { CarsContentComponent } from './pages/cars-content/cars-content.component';
 
 
 
@@ -19,6 +24,11 @@ import { FooterComponent } from './Général/footer/footer.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    NavbarComponent,
+    ServicesComponent,
+    OccasionsComponent,
+    CarsComponent,
+    CarsContentComponent,
   ],
 
   imports: [

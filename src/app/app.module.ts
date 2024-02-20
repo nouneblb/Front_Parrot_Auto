@@ -7,13 +7,28 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 
+import { AppComponent } from './app.component';
+import { HomeComponent } from './Général/home/home.component';
+import { HeaderComponent } from './Général/header/header.component';
+import { FooterComponent } from './Général/footer/footer.component';
+
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    HeaderComponent,
+    FooterComponent,
+    HomeComponent,
+  ],
+
   imports: [
-    CommonModule,
-    AppRoutingModule
-  ]
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+  ],
+  providers: [],
+  bootstrap: []
 })
 export class AppModule { }

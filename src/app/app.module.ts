@@ -15,6 +15,7 @@ import { CarsComponent } from './pages/cars/cars.component';
 import { CarsContentComponent } from './pages/cars-content/cars-content.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { ServicesPageComponent } from './pages/services-page/services-page.component';
+import { HorairesComponent } from './service/horaires/horaires.component';
 
 
 
@@ -26,6 +27,7 @@ import { ServicesPageComponent } from './pages/services-page/services-page.compo
    CarsComponent,
    CarsContentComponent,
    NotFoundComponent,
+   HorairesComponent,
   ],
 
   imports: [
